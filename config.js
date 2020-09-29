@@ -34,6 +34,7 @@ module.exports = {
       vkontakte: "",
       linkedin: "tarunkaramchandani/",
       instagram: "code.games.books/",
+      goodreads: "user/show/16015107-tarun",
       line: "",
       gitlab: "",
       weibo: "",
