@@ -1,6 +1,6 @@
 ---
 title: "Devops:3 DNS Lookup"
-date: "2020-09-29"
+date: "2020-10-06"
 template: "post"
 draft: false
 slug: "dns-lookup"
