@@ -52,4 +52,9 @@ There are 0 - 65535 available ports. Some of these have assigned protocols for e
 - 443: HTTPS
 - 22: SSH
 
+Now, let's say there is a server with an ip 172.217.26.196 which hosts multiple applications like nginx, redis, mysql etc. Now if this server wants to expose all these services to the outside world it can do it by running these on different ports. For example using the default ports for these services:
+- 172.217.26.196:80 will connect you to nginx.
+- 172.217.26.196:3306 will connect you to mysql 
+- 172.217.26.196:6379 will connect you to redis
+
 That's it for this post. In the next part of this series we will look at how DNS lookup works.
