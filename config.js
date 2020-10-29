@@ -7,7 +7,7 @@ module.exports = {
   subtitle: "I code, read and game, and life takes over.",
   copyright: "© All rights reserved.",
   disqusShortname: "",
-  postsPerPage: 4,
+  postsPerPage: 10,
   googleAnalyticsId: "",
   useKatex: false,
   menu: [
