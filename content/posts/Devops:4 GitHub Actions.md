@@ -60,7 +60,7 @@ jobs:
         package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
 ```
 
-You can also directly create a file in your repo and push it to your repository directly. Coming to what is happening in this above file let's take a look at each of the lines:
+You can also directly create a file in your repo as **.github/workflows/azure.yml** and push it to your repository directly. The name of the file corresponds to the cloud provider that you are using. Coming to what is happening in this above file let's take a look at some of the lines:
 
 - **On:** The trigger for a particular workflow, this trigger can be a commit to master, so that you can deploy these commits automatically.
 - **jobs:** list of configurations for the commands to run.
